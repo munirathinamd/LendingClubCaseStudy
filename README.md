@@ -25,10 +25,11 @@ Company wants to understand the driving factors (or driver variables) behind loa
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 ## Technologies Used
-- Numpy Vesrion: 1.20.3
-- Pandas Vesrion: 1.3.4
+- Python Version: 3.9.7
+- Numpy Version: 1.20.3
+- Pandas Version: 1.3.4
 - Matplotlib Version: 3.4.3
-- Seaborn Vesrion: 0.11.2
+- Seaborn Version: 0.11.2
 
 ## Conclusions
 Below are the recommendations of our analysis
@@ -56,7 +57,7 @@ This case study was given as an assignment by upGrad for our PG program. Thanks 
 
 
 ## Contact
-Created by [@munirathinamd] - feel free to contact me!
+Created by [@munirathinamd] and [@Sreedhark1509] - feel free to contact us!
 
 
 <!-- Optional -->
