@@ -1,5 +1,6 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
+In this case study, we are going to analyze the lending company’s past loan data and advise the company to minimize the credit loss and loss of business. We are going to analyze the attributes which are contributing to defaulting the loan. We will follow the required EDA steps to achieve our aim.
+ 
 
 
 ## Table of Contents
@@ -11,38 +12,52 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+Working for a consumer finance company which specializes in lending various types of loans to urban customers. When the company receives a loan application, the company has to make a decision for loan approval based on the applicant’s profile. Two types of risks are associated with the bank’s decision:
+1) If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company
+2) If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company
+
+The data given to us contains information about past loan applicants and whether they ‘defaulted’ or not.
+The aim is to identify patterns which indicate if a person is likely to default, which may be used for taking actions such as denying the loan, reducing the amount of loan, lending (to risky applicants) at a higher interest rate, etc.
+
+If one is able to identify these risky loan applicants, then such loans can be reduced thereby cutting down the amount of credit loss. Identification of such applicants using EDA is the aim of this case study
+
+Company wants to understand the driving factors (or driver variables) behind loan default, i.e. the variables which are strong indicators of default. The company can utilize this knowledge for its portfolio and risk assessment.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+## Technologies Used
+- Python Version: 3.9.7
+- Numpy Version: 1.20.3
+- Pandas Version: 1.3.4
+- Matplotlib Version: 3.4.3
+- Seaborn Version: 0.11.2
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+Below are the recommendations of our analysis
+- Higher the loan amount, rate of interest and installments in all income rage will leads to high probability of defaults
+- More the DTI, the applicants are riskier
+- All the loan applications must be verified
+- Lower grade applicants has more probability of default. Especially, B and C grade needs to be considered for more verifications
+- Home Improvement loan, Small Business loans and Debit Consolidation loan has more probability of defaults. Hence, recommend to reduce focus on these purpose loans or investigate more before approving.
+- Reduce the number of terms
+- Recommend to monitor the client’s revolving utilization rate
+- Investigate more before approving the loan for applicants having more derogatory public records
+- Reduce the loan amount or number of applications approved for the applicants with home ownership type Rent and Mortgage
+
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+This case study was given as an assignment by upGrad for our PG program. Thanks for their guidance to complete this assignment.
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@munirathinamd] and [@Sreedhark1509] - feel free to contact us!
 
 
 <!-- Optional -->
